@@ -1,12 +1,15 @@
 .container {
   width: 80%;
-  height: 400px;
   margin: 0 auto;
+  padding: 0 50px
 }
 
 .flex-wrapper {
+  flex-wrap: wrap;
   margin-top: 20px;
   background: #a4daf3;
+  padding: 50px 30px;
+  border-radius: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,6 +20,7 @@
   width: 150px;
   height: 150px;
   margin: 20px;
+  padding: 10px;
   background: yellow;
   border: 1px solid #1f1c1c;
   border-radius: 20px;
