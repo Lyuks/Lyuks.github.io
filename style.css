@@ -1,0 +1,23 @@
+.container {
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.flex-wrapper {
+  margin-top: 20px;
+  background: #a4daf3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.flex-block {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  background: yellow;
+  border: 1px solid #1f1c1c;
+  border-radius: 20px;
+}
