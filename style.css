@@ -1,3 +1,9 @@
+@media screen and (max-width: 800px) {
+  #main {
+    display: block;
+  }
+}
+
 * {
   box-sizing: border-box; 
 }
@@ -29,9 +35,19 @@ header, footer {
 header, footer, article, nav, aside {
   padding: 1em;
 }
-@media screen and (max-width: 800px) {
-  #main {
-    display: block;
-  }
+
+.nav_item {
+  display: inline-block;
 }
 
+a.nav_item_link {
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.main_ad {
+  width: 300px;
+  height: 200px;
+  outline: 1px solid black;
+  margin: 0 auto;
+}
