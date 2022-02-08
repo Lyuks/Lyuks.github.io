@@ -1,1 +1,1 @@
-window['first-elem'].style.background = 'green';
+
