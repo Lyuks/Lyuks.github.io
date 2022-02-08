@@ -59,3 +59,12 @@ a.nav_item_link {
   font-size: 1.5em;
   color: #185fff;
 }
+
+h2.questions + div ol li {
+  font-size: 1.1em;
+  padding-bottom: 5px;
+}
+
+h2.questions + div ol {
+  background-color: #dadaff;
+}
