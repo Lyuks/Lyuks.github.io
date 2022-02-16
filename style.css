@@ -1,9 +1,3 @@
-@media screen and (max-width: 800px) {
-  #main {
-    display: block;
-  }
-}
-
 * {
   box-sizing: border-box; 
 }
@@ -67,4 +61,10 @@ h2.questions + div ol li {
 
 h2.questions + div ol {
   background-color: #dadaff;
+}
+
+@media screen and (max-width: 800px) {
+  #main {
+    display: block;
+  }
 }
