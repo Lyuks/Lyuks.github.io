@@ -67,6 +67,7 @@ h2.questions + div ol {
 #slot {
   width: 720px;
   height: 400px;
+  position: relative;
 }
 
 #videoSlot {
