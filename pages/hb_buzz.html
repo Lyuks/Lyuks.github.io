@@ -66,15 +66,17 @@
 		<!--Тип баннера: 240 - 2-->
 		<div id="adfox_153511322808991768"></div>
 	<script>
-    window.Ya.adfoxCode.create({
-        ownerId: 265632,
-        containerId: 'adfox_153511322808991768',
-        params: {
-            p1: 'cbzga',
-            p2: 'fvaz',
-            puid1: '',
-            puid2: ''
-        }
+        window.yaContextCb.push(()=>{
+            window.Ya.adfoxCode.create({
+            ownerId: 265632,
+            containerId: 'adfox_153511322808991768',
+            params: {
+                p1: 'cbzga',
+                p2: 'fvaz',
+                puid1: '',
+                puid2: ''
+            }
+        })
     });
 </script>
 
