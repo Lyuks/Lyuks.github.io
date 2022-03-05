@@ -1,0 +1,98 @@
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Buzz</title>
+    	<script async src="https://banners.adfox.ru/180925/adfox/802074/buzz3.js" crossorigin="anonymous"></script>
+        <script src="https://yandex.ru/ads/system/header-bidding.js" async></script>
+	<script>
+		// вставляем скрипт синхронно, обязательно перед бандлом адфокса
+		// code должен совпадать с containerId объявления
+
+		const adfoxBiddersMap = {
+			'buzzoola': '802074'
+		};
+
+		var adUnits = [
+			{
+				code: 'adfox_153511322808991768',
+                sizes: [[240,400], [300,250], [640,360]],
+				bids: [
+					{
+						bidder: 'buzzoola',
+						params: {
+							placementId: 21204
+                             }
+						}
+            			
+        		]
+
+   			}
+		];
+		var userTimeout = 1500;
+
+		window.YaHeaderBiddingSettings = {
+			biddersMap: adfoxBiddersMap,
+			adUnits: adUnits,
+			timeout: userTimeout
+		};
+	</script>
+
+
+<script>window.yaContextCb = window.yaContextCb || []</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script>
+</head>
+
+<body style="width: 800px; margin:0 auto;">
+	<div>
+		<h1>HEADER BIDDING</h1>
+		<br>
+		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus officiis mollitia sunt veniam tenetur nesciunt doloremque dignissimos possimus facilis, nihil totam, at voluptatibus assumenda cupiditate minus laboriosam illum fugiat sed!</div>
+		<div>Ipsam quisquam minus quae eaque sint provident, eveniet, magnam dolorem enim placeat. Esse dolorem adipisci voluptatum obcaecati perferendis omnis saepe, exercitationem rerum aut ab fuga, illo ipsum autem, enim perspiciatis.</div>
+		<div>Mollitia molestias officia eligendi eveniet labore aliquid maiores earum veritatis nam, expedita quasi, architecto. Earum error ipsa minima provident id necessitatibus, eligendi architecto qui accusamus enim at voluptate impedit numquam?</div>
+		<div>Doloribus animi voluptatibus nihil similique a corrupti aliquid, assumenda cupiditate totam, sint perferendis, nobis, fugit cumque. Aliquid excepturi dolorum facilis veritatis placeat reprehenderit, nam tempora ad nihil ipsam id quibusdam.</div>
+		<div>Cupiditate, illo temporibus fugiat reprehenderit non, labore esse quis nihil in ullam beatae. Pariatur expedita, voluptatum libero necessitatibus vel ex incidunt illum blanditiis excepturi vitae ducimus ut vero numquam harum.</div>
+	</div>
+		<h1 style="color:green">Buzz</h1>
+		<!--AdFox START-->
+		<!--hb-test-->
+		<!--Площадка: test 1 / main / 240 - 2-->
+		<!--Категория: <не задана>-->
+		<!--Тип баннера: 240 - 2-->
+		<div id="adfox_153511322808991768"></div>
+	<script>
+    window.Ya.adfoxCode.create({
+        ownerId: 265632,
+        containerId: 'adfox_153511322808991768',
+        params: {
+            p1: 'cbzga',
+            p2: 'fvaz',
+            puid1: '',
+            puid2: ''
+        }
+    });
+</script>
+
+	<div>
+		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus officiis mollitia sunt veniam tenetur nesciunt doloremque dignissimos possimus facilis, nihil totam, at voluptatibus assumenda cupiditate minus laboriosam illum fugiat sed!</div>
+		<div>Ipsam quisquam minus quae eaque sint provident, eveniet, magnam dolorem enim placeat. Esse dolorem adipisci voluptatum obcaecati perferendis omnis saepe, exercitationem rerum aut ab fuga, illo ipsum autem, enim perspiciatis.</div>
+		<div>Mollitia molestias officia eligendi eveniet labore aliquid maiores earum veritatis nam, expedita quasi, architecto. Earum error ipsa minima provident id necessitatibus, eligendi architecto qui accusamus enim at voluptate impedit numquam?</div>
+		<div>Doloribus animi voluptatibus nihil similique a corrupti aliquid, assumenda cupiditate totam, sint perferendis, nobis, fugit cumque. Aliquid excepturi dolorum facilis veritatis placeat reprehenderit, nam tempora ad nihil ipsam id quibusdam.</div>
+		<div>Cupiditate, illo temporibus fugiat reprehenderit non, labore esse quis nihil in ullam beatae. Pariatur expedita, voluptatum libero necessitatibus vel ex incidunt illum blanditiis excepturi vitae ducimus ut vero numquam harum.</div>
+	</div>
+
+	<div>
+		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus officiis mollitia sunt veniam tenetur nesciunt doloremque dignissimos possimus facilis, nihil totam, at voluptatibus assumenda cupiditate minus laboriosam illum fugiat sed!</div>
+		<div>Ipsam quisquam minus quae eaque sint provident, eveniet, magnam dolorem enim placeat. Esse dolorem adipisci voluptatum obcaecati perferendis omnis saepe, exercitationem rerum aut ab fuga, illo ipsum autem, enim perspiciatis.</div>
+		<div>Mollitia molestias officia eligendi eveniet labore aliquid maiores earum veritatis nam, expedita quasi, architecto. Earum error ipsa minima provident id necessitatibus, eligendi architecto qui accusamus enim at voluptate impedit numquam?</div>
+		<div>Doloribus animi voluptatibus nihil similique a corrupti aliquid, assumenda cupiditate totam, sint perferendis, nobis, fugit cumque. Aliquid excepturi dolorum facilis veritatis placeat reprehenderit, nam tempora ad nihil ipsam id quibusdam.</div>
+		<div>Cupiditate, illo temporibus fugiat reprehenderit non, labore esse quis nihil in ullam beatae. Pariatur expedita, voluptatum libero necessitatibus vel ex incidunt illum blanditiis excepturi vitae ducimus ut vero numquam harum.</div>
+	</div>
+</body>
+
+</html>
