@@ -75,6 +75,11 @@ h2.questions + div ol {
   height: 100%;
 }
 
+.video_wrap {
+  width: 300px;
+  height: 600px;
+}
+
 @media screen and (max-width: 800px) {
   #main {
     display: block;
