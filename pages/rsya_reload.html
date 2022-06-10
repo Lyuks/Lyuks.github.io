@@ -26,16 +26,17 @@
         <div class="main_ad">
             <!-- Yandex.RTB R-A-1516210-4 -->
 <div id="yandex_rtb_R-A-1516210-4"></div>
-<script>window.yaContextCb.push(()=>{
-  Ya.Context.AdvManager.render({
-    renderTo: 'yandex_rtb_R-A-1516210-4',
-    blockId: 'R-A-1516210-4'
-  })
-  })
-  setTimeout(function(){
-rtb_self_reload();
-},30000);
-rtb_self_reload();
+<script>
+function adReload() {
+    window.yaContextCb.push(()=>{
+        Ya.Context.AdvManager.render({
+          renderTo: 'yandex_rtb_R-A-1516210-4',
+          blockId: 'R-A-1516210-4'
+        })
+        })
+}
+setInterval(adReload, 5000);
+
   </script>
            
 
