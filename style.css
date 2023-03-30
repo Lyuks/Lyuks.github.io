@@ -80,6 +80,16 @@ h2.questions + div ol {
   height: 600px;
 }
 
+#slot {
+  width: 700px;
+  height: 400px;
+}
+
+#videoSlot {
+  width: 100%;
+  height: 100%;
+}
+
 @media screen and (max-width: 800px) {
   #main {
     display: block;
