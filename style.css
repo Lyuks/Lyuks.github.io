@@ -1,3 +1,10 @@
+@media (max-width: 600px) {
+  #main {
+    display: block;
+    flex-direction: column;
+  }
+}
+
 * {
   box-sizing: border-box; 
 }
@@ -90,11 +97,6 @@ h2.questions + div ol {
   height: 100%;
 }
 
-@media screen and (max-width: 800px) {
-  #main {
-    display: block;
-  }
-}
 
 .ad_inter {
   width: 100%;
