@@ -45,6 +45,7 @@
 <!--Тип баннера: InPage-->
 <div id="adfox_168449080376777143"></div>
 <script>
+  function fs_delay() {
     window.yaContextCb.push(()=>{
         Ya.adfoxCode.create({
             ownerId: 359004,
@@ -64,6 +65,8 @@
             }
         })
     })
+  }
+  setTimeout(fs_delay, 10000);
 </script>
 
 
