@@ -53,6 +53,9 @@ a.nav_item_link {
   outline: 1px solid black;
   margin: 0 auto;
 }
+.main_ad__slider {
+  max-width: 900px;
+}
 
 .banner_header {
   color: grey;
