@@ -4,4 +4,4 @@
 
 layout: home
 ---
-test index markdown
+my new index markdown
