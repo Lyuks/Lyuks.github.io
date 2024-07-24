@@ -49,7 +49,7 @@ a.nav_item_link {
 
 .main_ad {
   width: 80%;
-  height: 300px;
+  height: auto;
   outline: 1px solid black;
   margin: 0 auto;
 }
