@@ -110,3 +110,7 @@ h2.questions + div ol {
   width: 300px;
   height: 300px;
 }
+
+.main_ad.carousel {
+  width: 100%;
+}
