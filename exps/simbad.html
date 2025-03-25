@@ -28,15 +28,29 @@
 
 <div id="adfox_174290913273787441"></div>
 <script>
-    window.yaContextCb.push(()=>{
+     window.yaContextCb.push(()=>{
         Ya.adfoxCode.create({
             ownerId: 359004,
             containerId: 'adfox_174290913273787441',
             params: {
                 p1: 'dgwzp',
                 p2: 'jkte',
-                puid1: 'simbad',
+                puid1: '',
                 puid2: ''
+            },
+            onStub: function() { 
+                window.yaContextCb.push(()=>{
+                    Ya.adfoxCode.create({
+                        ownerId: 359004,
+                        containerId: 'adfox_174290913273787441',
+                        params: {
+                            p1: 'dgwzp',
+                            p2: 'jkte',
+                            puid1: '%request.puid1%',
+                            pk: 'stop'
+                        }
+                    })
+                })
             }
         })
     })
