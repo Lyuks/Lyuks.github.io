@@ -53,6 +53,14 @@ a.nav_item_link {
   outline: 1px solid black;
   margin: 0 auto;
 }
+
+main_ad_RM {
+  width: 1000px;
+  height: 120px;
+  /* outline: 1px solid black; */
+  margin: 0 auto;
+}
+
 .main_ad__slider {
   max-width: 900px;
 }
