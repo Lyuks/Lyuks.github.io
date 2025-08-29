@@ -179,7 +179,51 @@
 
 
 <!-- Yandex.RTB R-A-1516210-10 -->
-<!-- <div id="yandex_rtb_R-A-1516210-10"></div>
+<div id="yandex_rtb_R-A-1516210-10"></div>
+<script>
+window.yaContextCb.push(() => {
+    Ya.Context.AdvManager.render({
+        "blockId": "R-A-1516210-10",
+        "renderTo": "yandex_rtb_R-A-1516210-10",
+        "type": "feed"
+    })
+})
+
+window.yaContextCb.push(() => {
+    Ya.adfoxCode.create({
+            ownerId: 359004,
+            containerId: 'adfox_175646744280497441',
+            params: {
+                p1: 'cyxpm',
+                p2: 'imrr',
+                puid1: '',
+                puid2: ''
+            }
+        })
+    })
+
+    const feed = document.getElementById('yandex_rtb_R-A-1516210-10'); // ID из поля renderTo
+    const callback = (entries) => {
+            entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                            Ya.Context.AdvManager.destroy({
+                                            blockId: 'adfox_175646744280497441'
+                                    }); // blockId для десктопной версии
+                    }
+            });
+    };
+    const observer = new IntersectionObserver(callback, {
+            threshold: 0,
+    });
+    observer.observe(feed);
+
+
+</script>
+
+
+<!-- ВАРИК С ЧИСТЫМ РСЯ -->
+<!-- Yandex.RTB R-A-1516210-10
+<div id="yandex_rtb_R-A-1516210-10"></div>
 <script>
 window.yaContextCb.push(() => {
     Ya.Context.AdvManager.render({
@@ -210,10 +254,11 @@ window.yaContextCb.push(() => {
     const observer = new IntersectionObserver(callback, {
             threshold: 0,
     });
-    observer.observe(feed); -->
+    observer.observe(feed);
 
 
-</script>
+</script> -->
+
 
 
 
