@@ -113,15 +113,9 @@
             doloribus
             voluptates voluptatibus pariatur ipsum?</p>
     </nav>
-    <!-- Yandex.RTB R-A-1516210-11 -->
+
 <script>
-    window.yaContextCb.push(() => {
-        Ya.Context.AdvManager.render({
-            "blockId": "R-A-1516210-11",
-            "type": "floorAd",
-            "platform": "desktop"
-        })
-    })
+    
     </script>
     <aside>
         <h2>Боковая панель</h2>
@@ -171,7 +165,34 @@ window.yaContextCb.push(() => {
         "type": "feed"
     })
 })
+
+window.yaContextCb.push(() => {
+        Ya.Context.AdvManager.render({
+            "blockId": "R-A-1516210-11",
+            "type": "floorAd",
+            "platform": "desktop"
+        })
+    })
+
+    const feed = document.getElementById('yandex_rtb_R-A-1516210-10'); // ID из поля renderTo
+    const callback = (entries) => {
+            entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                            Ya.Context.AdvManager.destroy({
+                                            blockId: 'R-A-1516210-11'
+                                    }); // blockId для десктопной версии
+                    }
+            });
+    };
+    const observer = new IntersectionObserver(callback, {
+            threshold: 0,
+    });
+    observer.observe(feed);
+
+
 </script>
+
+
 
 <footer>Подвал</footer>
 
