@@ -124,3 +124,14 @@ h2.questions + div ol {
 .main_ad.carousel {
   width: 100%;
 }
+
+.RM_with_height {
+  width: 970px;
+  height: 0px;
+  max-height: 250px;
+}
+
+.RM_without_height {
+  width: 970px;
+  height: 0px;
+}
