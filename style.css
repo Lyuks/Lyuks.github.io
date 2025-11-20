@@ -127,8 +127,7 @@ h2.questions + div ol {
 
 .RM_with_height {
   width: 970px;
-  /* height: 250px; */
-  max-height: 300px;
+  height: 250px;
 }
 
 .RM_without_height {
