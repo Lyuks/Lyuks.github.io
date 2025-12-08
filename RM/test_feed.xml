@@ -663,25 +663,10 @@
       <category id="656">Wok pans</category>
     </categories>
     <offers>
-      <offer id="88" available="true">
-        <url>https://demo.loadstone.io/product/sneakers</url>
-        <price>100</price>
-      <currency id="RUR" rate="1"/>
-        <categoryId>625</categoryId>
-        <picture>https://demo.loadstone.io/wp-content/uploads/2025/03/23070013_53728674_2048-1.webp</picture>
-        <name>Sneakers</name>
-        <vendor>USA</vendor>
-        <store>TRUE</store>
-        <pickup>TRUE</pickup>
-        <delivery>TRUE</delivery>
-        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
-        <sales_notes>No prepayment</sales_notes>
-        <country_of_origin>USA</country_of_origin>
-      </offer>
       <offer id="131" available="true">
         <url>https://demo.loadstone.io/product/bedside-table-loft</url>
         <price>119.99</price>
-      <currency id="RUR" rate="1"/>
+        <currencyId>RUR</currencyId>
         <categoryId>100</categoryId>
         <picture>https://demo.loadstone.io/wp-content/uploads/2025/03/5d308ade3785cebbfa142dd306dd55d8.jpg</picture>
         <name>Bedside table Loft</name>
