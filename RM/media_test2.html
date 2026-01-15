@@ -25,7 +25,7 @@
             perspiciatis consequuntur quo, rerum a illo dolore ex voluptates, adipisci saepe, doloribus expedita cum!
             Obcaecati a liquid expedita eaque velit unde temporibus ipsam, nulla quis aliquamd.</p>
 
-        <h3>R-A-18099444-1 1000x120</h3>
+        <h3>R-A-18099444-1 1000x120 (Adfox на коллбэке)</h3>
         <div id="adfox_1849379168" style="width:1000px; height:120px"></div>
             <script>
                 window.yaRetailMediaCb.push(()=>{
@@ -33,12 +33,26 @@
                         pageId: 18099444,
                         containerId: 'adfox_1849379168',
                         impId: 1,
-                        params: {
-                            //....
+                        сallbacks: {
+                            altCallback: () => {
+                                window.yaContextCb.push(()=>{
+                                    Ya.adfoxCode.create({
+                                        ownerId: 359004,
+                                        containerId: 'adfox_1849379168',
+                                        params: {
+                                            p1: 'crylp',
+                                            p2: 'hliw',
+                                            pfc: 'ejpgp',
+                                            pfb: 'bihlfb'
+                                        }
+                                    })
+                                }) 
+                            }
                         }
                     })
                 })
-            </script>
+</script>
+
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestiae nostrum dignissimos doloremque
             suscipit, eligendi atque nulla asperiores, consectetur sit magnam esse exercitationem officiis eius maxime
             nesciunt voluptate delectus molestias magni. Velit veritatis vero quibusdam omnis eius quae perferendis
