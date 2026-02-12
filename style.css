@@ -131,6 +131,6 @@ h2.questions + div ol {
 }
 
 .RM_without_height {
-  width: 970px;
-  height: 0px;
+  width: 960px;
+  height: 150px;
 }
