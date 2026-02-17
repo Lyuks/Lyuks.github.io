@@ -130,7 +130,12 @@ h2.questions + div ol {
   height: 250px;
 }
 
-.RM_without_height {
+.RM_150 {
   width: 960px;
   height: 150px;
+}
+
+.RM_100 {
+  width: 960px;
+  height: 100px;
 }
